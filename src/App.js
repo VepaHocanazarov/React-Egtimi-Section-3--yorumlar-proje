@@ -1,27 +1,28 @@
-import React from 'react'
+import React from 'react';
+import{ faker} from '@faker-js/faker'
 
 const App = () => {
   return (
-    <div class="ui comments">
-  <div class="comment">
-    <a class="avatar">
-      <img src="/images/avatar/small/stevie.jpg"/>
-    </a>
-    <div class="content">
-      <a class="author">Stevie Feliciano</a>
-      <div class="metadata">
-        <div class="date">2 days ago</div>
-        <div class="rating">
-          <i class="star icon"></i>
-          5 Faves
+    <div className="ui comments">
+      <div className="comment">
+        <a className="avatar" href='/'>
+          <img alt='' src={faker.image.avatar()}/>
+        </a>
+        <div className="content">
+          <a className="author" href='/'>Vepa Hocanazarov</a>
+          <div className="metadata">
+            <div className="date">2 days ago</div>
+            <div className="rating">
+              <i className="star icon"></i>
+              5 Yildiz
+            </div>
+          </div>
+          <div className="text">
+            Bu bir test mesajdir.
+          </div>
         </div>
       </div>
-      <div class="text">
-        Hey guys, I hope this example comment is helping you read this documentation.
-      </div>
     </div>
-  </div>
-</div>
   )
 }
 
