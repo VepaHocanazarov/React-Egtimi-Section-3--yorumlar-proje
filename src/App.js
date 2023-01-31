@@ -4,42 +4,82 @@ import Card from './Card'
 
 const App = () => {
   return (
-    <div className="ui comments">
+    <div className="ui comments" style={{
+      paddingTop: "10px",
+      paddingLeft: "15px"
+    }}>
 
-      <Card/>
+      <Card>
+        <Comment name="Vepa Hocanazarov" day="3" star="4" comment="React Egtimi" />
+      </Card>
 
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
-      <Comment name = "Vepa Hocanazarov" day = "3" star = "4" comment = "React Egtimi"  />
-      <Comment name = "Aygul Cakanova" day = "10" star = "2" comment = "React Egtimi test mesaj" />
+      <Card>
+      <Comment name="Aygul Cakanova" day="10" star="2" comment="React Egtimi test mesaj" />
+      </Card>
+
+      <Card>
+        <Comment name="Vepa Hocanazarov" day="3" star="4" comment="React Egtimi" />
+      </Card>
+
+      <Card>
+      <Comment name="Aygul Cakanova" day="10" star="2" comment="React Egtimi test mesaj" />
+      </Card>
+
+      <Card>
+        <Comment name="Vepa Hocanazarov" day="3" star="4" comment="React Egtimi" />
+      </Card>
+
+      <Card>
+      <Comment name="Aygul Cakanova" day="10" star="2" comment="React Egtimi test mesaj" />
+      </Card>
+
+      <Card>
+        <Comment name="Vepa Hocanazarov" day="3" star="4" comment="React Egtimi" />
+      </Card>
+
+      <Card>
+      <Comment name="Aygul Cakanova" day="10" star="2" comment="React Egtimi test mesaj" />
+      </Card>
+
+      <Card>
+        <Comment name="Vepa Hocanazarov" day="3" star="4" comment="React Egtimi" />
+      </Card>
+
+      <Card>
+      <Comment name="Aygul Cakanova" day="10" star="2" comment="React Egtimi test mesaj" />
+      </Card>
+
+      <Card>
+        <Comment name="Vepa Hocanazarov" day="3" star="4" comment="React Egtimi" />
+      </Card>
+
+      <Card>
+      <Comment name="Aygul Cakanova" day="10" star="2" comment="React Egtimi test mesaj" />
+      </Card>
+      <Card>
+        <Comment name="Vepa Hocanazarov" day="3" star="4" comment="React Egtimi" />
+      </Card>
+
+      <Card>
+      <Comment name="Aygul Cakanova" day="10" star="2" comment="React Egtimi test mesaj" />
+      </Card>
+
+      <Card>
+        <Comment name="Vepa Hocanazarov" day="3" star="4" comment="React Egtimi" />
+      </Card>
+
+      <Card>
+      <Comment name="Aygul Cakanova" day="10" star="2" comment="React Egtimi test mesaj" />
+      </Card>
+
+      <Card>
+        <Comment name="Vepa Hocanazarov" day="3" star="4" comment="React Egtimi" />
+      </Card>
+
+      <Card>
+      <Comment name="Aygul Cakanova" day="10" star="2" comment="React Egtimi test mesaj" />
+      </Card>
+
 
     </div>
   )
